@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+  @keyframes bounce {
+    0%, 100% { transform: translateY(-5%); }
+    50% { transform: translateY(0); }
+  }
+
+
+
+  .animate-bounce {
+    animation: bounce 1.5s ease-in-out infinite;
+  }
+
+
